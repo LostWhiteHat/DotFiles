@@ -63,7 +63,7 @@ gitPS1(){
 }
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\[\e[96m\]\u\[\e[0m\] > \[\e[38;5;49m\]\w \[\e[0m\](\[\e[0;31m\]$(gitPS1)\[\e[0m\]) \n\\$ '
+    PS1='\[\e[96m\]\u\[\e[0m\] > \[\e[38;5;49m\]\w\n\[\e[0;31m\]$(gitPS1)\[\e[0m\] $ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -121,8 +121,8 @@ fi
 alias ll="ls -la"
 alias vim="nvim ."
 alias ps1="powershell.exe"
+alias clear="clear && neofetch"
 
 export PATH="$HOME/nvim/bin:$PATH"
 
 clear
-neofetch
