@@ -12,13 +12,13 @@
         },
         {
           "style": "plain",
-          "template": "[<#00ffff>{{ .UserName }}</>]\u2500",
+          "template": "[<#00ffff>\uf2bd {{ .UserName }}</>]\u2500",
           "type": "session"
         },
         {
           "foreground": "#00FFAF",
           "style": "plain",
-          "template": "<#ffffff>[</>{{ .Path }}<#ffffff>]</>",
+          "template": "<#ffffff>[</>\uf413 {{ .Path }}<#ffffff>]</>",
           "type": "path"
         },
         {
