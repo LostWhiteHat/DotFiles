@@ -7,7 +7,12 @@
       "segments": [
         {
           "style": "plain",
-          "template": "\u256d\u2500[<#00ffff>{{ .UserName }}</>]\u2500",
+          "template": "\u256d\u2500[<#0079FF>\ue62a</> ]\u2500",
+          "type": "sysinfo"
+        },
+        {
+          "style": "plain",
+          "template": "[<#00ffff>{{ .UserName }}</>]\u2500",
           "type": "session"
         },
         {
